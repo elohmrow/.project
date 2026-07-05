@@ -1,0 +1,68 @@
+# .project metadata for k8gb
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "k8gb"
+name: "k8gb"
+description: "A cloud native Kubernetes Global Balancer"
+type: "project"
+project_lead: "donovanmuller" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#k8gb"
+    link: "https://cloud-native.slack.com/messages/k8gb"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-03-30T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/837" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/k8gb-io/k8gb"
+
+website: "https://www.k8gb.io"
+
+artwork: "https://landscape.cncf.io/logos/k8gb.svg"
+
+adopters:
+  path: "https://github.com/k8gb-io/k8gb/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "k8gb-io/k8gb"
+
+
+security:
+  policy:
+    path: "https://github.com/k8gb-io/k8gb/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/k8gb-io/k8gb/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/k8gb-io/k8gb/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/k8gb-io/k8gb/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/k8gb-io/k8gb/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/k8gb-io/k8gb/blob/master/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Coordination & Service Discovery"
+
+# CLOMonitor Score: 100/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 100
