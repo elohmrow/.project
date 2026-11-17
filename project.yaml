@@ -24,7 +24,7 @@ repositories:
 
 website: "https://www.k8gb.io"
 
-artwork: "https://landscape.cncf.io/logos/k8gb.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/k8gb"
 
 adopters:
   path: "https://github.com/k8gb-io/k8gb/blob/master/ADOPTERS.md"
