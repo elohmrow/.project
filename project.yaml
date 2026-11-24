@@ -6,18 +6,22 @@
 schema_version: "1.0.0"
 slug: "k8gb"
 name: "k8gb"
-description: "A cloud native Kubernetes Global Balancer"
+description: "Kubernetes-native global traffic management with DNS-based load balancing and failover"
 type: "project"
-project_lead: "donovanmuller" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "ytsarev"
+slack_channels:
   - name: "#k8gb"
-    link: "https://cloud-native.slack.com/messages/k8gb"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/archives/C021P656HGB"
     primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2021-03-30T00:00:00Z"
     issue: "https://github.com/cncf/toc/pull/837" # TODO: AUTO-DETECTED — please verify
+  - phase: "incubating"
+    date: "2026-07-18T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/1472"
 
 repositories:
   - "https://github.com/k8gb-io/k8gb"
@@ -51,8 +55,8 @@ legal:
   license:
     path: "https://github.com/k8gb-io/k8gb/blob/master/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
