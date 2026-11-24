@@ -6,7 +6,7 @@
 schema_version: "1.0.0"
 slug: "k8gb"
 name: "k8gb"
-description: "k8gb is a cloud-native Global Service Load Balancing solution"
+description: "Kubernetes-native global traffic management with DNS-based load balancing and failover"
 type: "project"
 project_lead: "ytsarev"
 slack_channels:
